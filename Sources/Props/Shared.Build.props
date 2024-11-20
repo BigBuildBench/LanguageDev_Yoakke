@@ -1,0 +1,19 @@
+<!-- Shared settings among all props files -->
+<Project>
+  <PropertyGroup>
+    <!-- Language-level settings -->
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+
+    <!-- Analysis -->
+    <AnalysisLevel>latest</AnalysisLevel>
+    <WarningLevel>9999</WarningLevel>
+
+    <!-- Root namespace -->
+    <RootNamespace>Yoakke.$(MSBuildProjectName)</RootNamespace>
+    
+    <!-- Strong name -->
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+</Project>
